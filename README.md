@@ -40,6 +40,7 @@ In `index.html`, using **"CSS:"** as a header in comment to mark my css styling.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### REFERENCES & SOURCES
+- Light/Dark Mode: NCU WP_Ch5 p.44
 - [NCU Logo](https://www.ncu.edu.tw/en/pages/show.php?top=1&num=19)
 - [Github Logo](https://www.pngegg.com/en/png-bktwj/download)
 - [Button Styling](https://webdeasy.de/en/top-css-buttons-en/)
