@@ -1,0 +1,253 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+body {
+  -webkit-transition: all 0.25s linear 0.25s;
+  transition: all 0.25s linear 0.25s;
+  background: white;
+  color: black;
+}
+
+body hr {
+  -webkit-transition: all 0.25s linear 0.25s;
+  transition: all 0.25s linear 0.25s;
+  width: 1400px;
+  margin-bottom: 12px;
+  border: 3px solid rgba(128, 128, 128, 0.8);
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 2px #a2a2a2;
+          box-shadow: 1px 1px 2px #a2a2a2;
+}
+
+body .clock-container {
+  -webkit-transition: all 0.25s linear 0.25s;
+  transition: all 0.25s linear 0.25s;
+  background-color: white;
+}
+
+.dark {
+  -webkit-transition: all 0.25s linear 0.25s;
+  transition: all 0.25s linear 0.25s;
+  background: #323232;
+  color: white;
+}
+
+.dark .github-icon {
+  color: white;
+}
+
+.dark .clock-container {
+  -webkit-transition: all 0.25s linear 0.25s;
+  transition: all 0.25s linear 0.25s;
+  background: #323232;
+}
+
+.dark hr {
+  -webkit-transition: all 0.25s linear 0.25s;
+  transition: all 0.25s linear 0.25s;
+  width: 1400px;
+  margin-bottom: 12px;
+  border: 3px solid rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 2px #ffffff;
+          box-shadow: 1px 1px 2px #ffffff;
+}
+
+.my-btn {
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius: 40px;
+  background: #fff;
+  border: 2px solid #1ecd97;
+  color: #1ecd97;
+  letter-spacing: 1px;
+  font-size: 12px;
+  cursor: pointer;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.my-btn:hover {
+  color: white;
+  background: #1ecd97;
+}
+
+.my-btn:active {
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 1.75rem;
+  padding-left: 6px;
+}
+
+p,
+li {
+  padding-left: 20px;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
+
+header {
+  min-width: 1440px;
+  background: rgba(36, 143, 193, 0.798);
+  color: white;
+  min-height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+
+header .header-container {
+  margin: 0 120px;
+  width: 1440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header-container .header-title h1 {
+  font-size: 2rem;
+}
+
+main {
+  min-width: 1440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .main-container {
+  width: 1440px;
+  margin: 0 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .main-container .profile {
+  margin-bottom: 20px;
+}
+
+main .main-container .profile .profile-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .main-container .profile .profile-content .profile-text p {
+  margin-bottom: 6px;
+}
+
+main .main-container .profile .profile-content .profile-text .github-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .main-container .profile .profile-content .profile-text .github-link img {
+  margin-left: 8px;
+  width: 35px;
+  height: 35px;
+}
+
+main .main-container .profile .profile-content .profile-photo {
+  padding-right: 40px;
+  padding-top: 12px;
+}
+
+main .main-container .profile .profile-content .profile-photo img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+main .main-container .contact {
+  margin-bottom: 20px;
+}
+
+main .main-container .experience {
+  margin-bottom: 20px;
+}
+
+main .main-container .experience ul {
+  padding-left: 40px;
+}
+
+main .main-container .skills {
+  margin-bottom: 8px;
+}
+
+.clock-container {
+  min-width: 1440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: white;
+}
+
+.clock-container #clock {
+  height: 60px;
+  width: 300px;
+  color: #37dfaac2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 50px;
+}
+/*# sourceMappingURL=style.css.map */

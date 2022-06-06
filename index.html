@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="rjun" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta name="rating" content="General" />
+    <meta name="description" content="" />
+    <base target="_self" />
+    <title>NCU WP Final - 109403019 CV</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/images/ncu_logo.png" />
+
+    <!-- Link to my .css file -->
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <!-- *NOTE: Using "CSS:" as a header to mark my css styling -->
+
+  <!-- CSS: light(default) and dark mode with transition -->
+  <!-- CSS: In body, most of object is flexbox -->
+  <body>
+    <!-- Header and navbar -->
+    <!-- CSS: background with rgba -->
+    <header>
+      <div class="header-container">
+        <div class="header-title">
+          <h1>109403019 CV</h1>
+        </div>
+        <div class="header-nav">
+          <!-- CSS: click button will filled with color -->
+          <button class="my-btn" onclick="handleChangeMode()">
+            Change Mode
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Useless Clock >< -->
+    <div class="clock-container">
+      <div id="clock"></div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+      <div class="main-container">
+        <!-- PROFILE -->
+        <div class="profile">
+          <h2>PROFILE</h2>
+          <!-- CSS: Each horizontal line has shadow effect -->
+          <hr />
+          <div class="profile-content">
+            <div class="profile-text">
+              <p>
+                I'm a student in Taiwan. I love programming and learn anything
+                about it. <br />My favorite course in this semester is Web
+                Programming and Business Data Communication.
+              </p>
+              <br />
+              <p>
+                Education: Department of Information Management, National
+                Central University, Taiwan
+              </p>
+              <div class="github-link">
+                <p>Github:</p>
+                <a href="https://github.com/xxrjun" target="_blank"
+                  ><img
+                    class="github-icon"
+                    src="./images/github_icon.png"
+                    alt="github-logo"
+                /></a>
+              </div>
+            </div>
+            <div class="profile-photo">
+              <img src="./images/personal_photo.jpeg" alt="my photo" />
+            </div>
+          </div>
+        </div>
+        <!-- CONTACT -->
+        <div class="contact">
+          <h2>CONTACT</h2>
+          <hr />
+
+          <p>Phone: 0800-000-000</p>
+          <p>Email: webprogrammingfinalgoodgood@fakemail.com</p>
+        </div>
+
+        <!-- EXPERIENCE -->
+        <div class="experience">
+          <h2>EXPERINECE</h2>
+          <hr />
+          <ul>
+            <li>中央大學資管系學生 (2020 ~ present)</li>
+            <li>中央大學資管系系學會公關部部員 (2020 ~ 2021)</li>
+            <li>中央大學熱舞社社員 (2020 ~ 2021)</li>
+          </ul>
+        </div>
+
+        <!-- SKILLS -->
+        <div class="skills">
+          <h2>SKILLS</h2>
+          <hr />
+
+          <p>HTML / CSS / JavaScript / React / Java / C++ / Python</p>
+        </div>
+      </div>
+    </main>
+  </body>
+
+  <!-- import script -->
+  <script src="./app.js"></script>
+</html>

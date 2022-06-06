@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+// Default light mode
+body {
+  transition: all 0.25s linear 0.25s;
+  background: white;
+  color: black;
+
+  hr {
+    transition: all 0.25s linear 0.25s;
+
+    width: 1400px;
+    margin-bottom: 12px;
+    border: 3px solid rgba(128, 128, 128, 0.8);
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px #a2a2a2;
+  }
+
+  .clock-container {
+    transition: all 0.25s linear 0.25s;
+    background-color: white;
+  }
+}
+
+// Dark mode
+.dark {
+  transition: all 0.25s linear 0.25s;
+  background: rgb(50, 50, 50);
+  color: white;
+  .github-icon {
+    color: white;
+  }
+
+  .clock-container {
+    transition: all 0.25s linear 0.25s;
+    background: rgb(50, 50, 50);
+  }
+
+  hr {
+    transition: all 0.25s linear 0.25s;
+    width: 1400px;
+    margin-bottom: 12px;
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px #ffffff;
+  }
+}
+
+$green: #1ecd97;
+
+.my-btn {
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius: 40px;
+  background: #fff;
+  border: 2px solid $green;
+  color: $green;
+  letter-spacing: 1px;
+  font-size: 12px;
+
+  cursor: pointer;
+  transition: all 0.25s ease;
+  &:hover {
+    color: white;
+    background: $green;
+  }
+  &:active {
+    //letter-spacing: 2px;
+    letter-spacing: 2px;
+  }
+}
+
+h2 {
+  font-size: 1.75rem;
+  padding-left: 6px;
+}
+
+p,
+li {
+  padding-left: 20px;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
+
+header {
+  min-width: 1440px;
+  background: rgba(36, 143, 193, 0.798);
+  color: white;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  .header-container {
+    margin: 0 120px;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .header-title {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+main {
+  min-width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .main-container {
+    width: 1440px;
+    margin: 0 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // PROFILE
+    .profile {
+      margin-bottom: 20px;
+      .profile-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .profile-text {
+          p {
+            margin-bottom: 6px;
+          }
+          .github-link {
+            display: flex;
+            align-items: center;
+            img {
+              margin-left: 8px;
+              width: 35px;
+              height: 35px;
+            }
+          }
+        }
+        .profile-photo {
+          padding-right: 40px;
+          padding-top: 12px;
+          img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+
+    // CONTACT
+    .contact {
+      margin-bottom: 20px;
+    }
+
+    // EXPERIENCE
+    .experience {
+      margin-bottom: 20px;
+      ul {
+        padding-left: 40px;
+      }
+    }
+
+    // SKILLS
+    .skills {
+      margin-bottom: 8px;
+    }
+  }
+}
+
+.clock-container {
+  min-width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  #clock {
+    height: 60px;
+    width: 300px;
+    color: #37dfaac2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+  }
+}
